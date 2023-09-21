@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View, SafeAreaView, Image } from 'react-native'
 import tw from 'twrnc';
+import NavOptions from '../components/NavOptions';
 
 const HomeScreen = () => {
   return (
@@ -17,14 +18,10 @@ const HomeScreen = () => {
           }}
         />
       </View>
+
+      <NavOptions />
     </SafeAreaView>
   )
 }
 
 export default HomeScreen
-
-const styles = StyleSheet.create({
-  text: {
-    color: 'blue'
-  }
-})
