@@ -49,7 +49,7 @@ const NavOptions = () => {
           </View>
         </TouchableOpacity>
       )}
-      style={{ flexGrow: 0 }}
+      // style={{ flexGrow: 0 }}
     />
   );
 };
