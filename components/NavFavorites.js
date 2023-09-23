@@ -5,7 +5,6 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import React from "react";
 import { Icon } from "@rneui/base";
 import tw from "twrnc";
 

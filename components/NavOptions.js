@@ -1,6 +1,5 @@
 import { useNavigation } from "@react-navigation/native";
 import { Icon } from "@rneui/base";
-import React from "react";
 import { FlatList, Image, Text, TouchableOpacity, View } from "react-native";
 import { useSelector } from "react-redux";
 import tw from "twrnc";

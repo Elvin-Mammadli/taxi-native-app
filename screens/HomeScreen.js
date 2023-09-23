@@ -1,5 +1,4 @@
-import React from "react";
-import { Text, View, SafeAreaView, Image } from "react-native";
+import { View, SafeAreaView, Image } from "react-native";
 import tw from "twrnc";
 import NavOptions from "../components/NavOptions";
 import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplete";
