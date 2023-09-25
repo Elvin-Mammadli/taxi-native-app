@@ -13,7 +13,8 @@ const MapScreen = () => {
 
   return (
     <View>
-      <TouchableOpacity style={tw`absolute top-16 left-8 z-1 bg-gray-100 shadow-lg`}
+      <TouchableOpacity
+        style={tw`absolute top-16 left-8 z-1 p-3 bg-gray-100 rounded-full shadow-lg`}
         onPress={() => navigation.navigate("HomeScreen")}
       >
         <Icon name="menu" />
